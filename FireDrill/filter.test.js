@@ -19,3 +19,23 @@ test("student score", () => {
     expect(result).toBe(expected);
 });
 
+
+const { grades } = require("./filter.js");
+test("add 5 to each score", () => {
+    let testScore = [85, 92, 78, 88, 95];
+    let result = grades(testScore);
+    let expected = [90, 97, 83, 93, 100];
+    expect(result).toBe(expected);
+});
+
+const { square } = require("./filter.js");
+test("squaroot of the score", () => {
+    let testScore = [2, 4, 6, 8, 10];
+    let result = grades(testScore);
+    let expected = [4, 16, 36, 64, 100];
+    expect(result).toBe(expected);
+});
+
+
+
+
