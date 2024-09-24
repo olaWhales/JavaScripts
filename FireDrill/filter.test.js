@@ -36,6 +36,9 @@ test("squaroot of the score", () => {
     expect(result).toBe(expected);
 });
 
-
-
+// let expenses = ["grocery": 150 , "dining": 100 , "transportation": 50 ,"entertainment": 80];
+// function category(amount){
+//     for(const element in expenses){
+//     }
+// }
 
