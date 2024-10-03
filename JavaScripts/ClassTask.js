@@ -23,7 +23,7 @@ function sortingOfNumber(arrayOfNumber){
 
 
 let number = [2,3,4,5,6,7] ;
-console.log(sortingOfNumber(number));
+console.table(sortingOfNumber(number));
 
 
 
